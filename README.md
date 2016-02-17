@@ -5,16 +5,11 @@ tic-tac-toe console game in Go.
 ## Specs
 
 1. Board, [3][3]char
-  - available
-  - mark
-  - generate
+  - alphabet = {mark, dimension}
+  - generic board.
 
 2. Judge
-  - column
-  - diagonal
-  - row
+  - {column, diagonal, row, available}
 
 3. Player
-  - mark?
-  - symbol
-  -
+  - {mark, symbol}
